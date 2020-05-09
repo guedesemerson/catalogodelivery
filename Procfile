@@ -1,0 +1,1 @@
+web: gunicorn catalogodelivery.wsgi --log-file -
