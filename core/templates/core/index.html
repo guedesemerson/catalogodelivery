@@ -1,0 +1,151 @@
+{%extends 'base.html'%}
+{%load static%}
+{%block menu%}
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <title>Home</title>
+</head>
+<nav class="navbar navbar-expand wrapping navbar-light bg-white rounded ">
+  <img src="{% static '/img/imagem.png'%}">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link font-weight-bolder"  href="{%url 'home'%}">Home<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle font-weight-bolder"  href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Categorias
+        </a>
+        <div class="dropdown-menu overflow-auto" aria-labelledby="navbarDropdownMenuLink">
+          {%for categoria in categoria%}
+            <a class="dropdown-item " href="{%url 'listcategoria' categoria.id%}">{{categoria.nome_categoria}}</a>
+          {%endfor%}
+        </div>
+      </li>
+    </ul>
+
+  </div>
+  <div>
+
+    <a href="https://www.flaticon.com/br/autores/freepik"><img src="{% static '/img/bacterias.png'%}"></a>
+    <small class="text-muted">Fique em casa: Covid-19</small>
+  </div>
+
+</nav>
+<br>
+{%endblock%}
+
+{%block main%}
+
+
+<div class="container" >
+  <div class="jumbotron" >
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )" >
+          <img class="card-img-top img-fluid img-thumbnail" src="{% static '/img/padaria.jpg'%}" alt="Padaria" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Padaria</h5>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail " src="{% static '/img/supermercado.jpg'%}" alt="Supermercado" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Supermercado</h5>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail" src="{% static '/img/peixaria.jpg'%}" alt="Peixaria" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Peixaria</h5>
+
+
+          </div>
+        </div>
+
+      </div>
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail" src="{% static '/img/papelaria.jpg'%}" alt="Papelaria" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Papelaria</h5>
+
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <br>
+    <div class="row justify-content-center align-items-center">
+
+      <div class="col">
+        <div class="card  rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail img-responsive" src="{% static '/img/construcao.jpg'%}" alt="Contrução" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Construção</h5>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card rounded " style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail" src="{% static '/img/hortifruti.jpg'%}" alt="Hortifruti" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Hortifruti</h5>
+
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail img-responsive" src="{% static '/img/farmacia.jpg'%}" alt="Farmácia" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Farmácia</h5>
+
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col">
+        <div class="card rounded" style="background: linear-gradient(to bottom, #99ccff 19%, #ffffff 100% )">
+          <img class="card-img-top img-fluid img-thumbnail" src="{% static '/img/racao.jpg'%}" alt="Casa de ração" style="height:150px">
+          <div class="card-body">
+            <h5 class="card-title">Casas de Ração</h5>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+{%endblock%}
+
+{%block footer%}
+{% include 'footer.html' %}
+{%endblock%}
