@@ -10,14 +10,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
   <title>Home</title>
 </head>
-<nav class="navbar navbar-expand-lg  wrapping navbar-light bg-white rounded ">
+<nav class="navbar navbar-expand-lg  wrapping navbar-light bg-white rounded " role="navigation">
   <img src="{% static '/img/imagem.png'%}">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link font-weight-bolder"  href="{%url 'home'%}">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item dropdown">
@@ -37,8 +37,8 @@
     <a href="https://www.flaticon.com/br/autores/freepik"><img src="{% static '/img/bacterias.png'%}"></a>
     <small class="text-muted">Fique em casa: Covid-19</small>
   </div>
-
 </nav>
+
 <br>
 {%endblock%}
 
