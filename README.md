@@ -14,8 +14,6 @@
 </h1>
 
 ##Versão do Projeto 1.0
-
-##Sobre esta versão
 ###Principais ferramentas: 
 
 - Python 3.6
