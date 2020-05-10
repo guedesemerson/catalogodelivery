@@ -3,14 +3,14 @@
 
 
 <h1 align="center">
-<img src="catalogo1.jpeg" alt="coronario" width="300" height=550></img>
-<img src="catalogo2.jpeg" alt="coronario" width="300" height=550></img>
+<img src="static/img/catalogo1.jpeg" alt="coronario" width="300" height=550></img>
+<img src="static/img/catalogo2.jpeg" alt="coronario" width="300" height=550></img>
 </h1>
 
 
 <h1 align="center">
-<img src="catalogo3.jpeg" alt="coronario" width="300" height=550></img>
-<img src="catalogo4.jpeg" alt="coronario" width="300" height=550></img>
+<img src="static/img/catalogo3.jpeg" alt="coronario" width="300" height=550></img>
+<img src="static/img/catalogo4.jpeg" alt="coronario" width="300" height=550></img>
 </h1>
 
 ## Versão do Projeto 1.0
