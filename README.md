@@ -23,8 +23,8 @@
 ## Instalação:
 
 - pip install -r requirements.txt
-- python manage.py makemigrations
 - python manage.py migrate
+- django-admin createsuperuser
 - python manage.py runserver
 
 - Acessar o serviço local na porta 8000 : 127.0.0.1:8000
