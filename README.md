@@ -1,13 +1,13 @@
 #Catalogo de Estabelecimentos Delivery
 Plataforma web para cadastro de estabelecimentos deliveries em sua cidade.
 <div align='center'>
-<img src="catalogo1.jpeg" alt="coronario" width="300" height=450></img>
-<img src="catalogo2.jpeg" alt="coronario" width="300" height=450></img>
+<img src="catalogo1.jpeg" alt="coronario" width="300" height=550></img>
+<img src="catalogo2.jpeg" alt="coronario" width="300" height=550></img>
 </div>
-
+<br>
 <div align='center'>
-<img src="catalogo3.jpeg" alt="coronario" width="300" height=450></img>
-<img src="catalogo4.jpeg" alt="coronario" width="300" height=450></img>
+<img src="catalogo3.jpeg" alt="coronario" width="300" height=550></img>
+<img src="catalogo4.jpeg" alt="coronario" width="300" height=550></img>
 </div>
 Versão do Projeto 1.0
 
