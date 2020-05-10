@@ -1,5 +1,7 @@
 #Catalogo de Estabelecimentos Delivery
+
 Plataforma web para cadastro de estabelecimentos deliveries em sua cidade.
+
 <div align='center'>
 <img src="catalogo1.jpeg" alt="coronario" width="300" height=550></img>
 <img src="catalogo2.jpeg" alt="coronario" width="300" height=550></img>
