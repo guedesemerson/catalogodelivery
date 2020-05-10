@@ -13,17 +13,16 @@
 <img src="catalogo4.jpeg" alt="coronario" width="300" height=550></img>
 </h1>
 
-Versão do Projeto 1.0
+##Versão do Projeto 1.0
 
-Sobre esta versão
-
-Principais ferramentas: 
+##Sobre esta versão
+###Principais ferramentas: 
 
 - Python 3.6
 - Postgres
 - Django 2.2
 
-Instalação:
+###Instalação:
 
 - pip install -r requirements.txt
 - python manage.py makemigrations
