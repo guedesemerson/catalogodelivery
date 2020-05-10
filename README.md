@@ -7,7 +7,7 @@
 <img src="catalogo1.jpeg" alt="coronario" width="300" height=550></img>
 <img src="catalogo2.jpeg" alt="coronario" width="300" height=550></img>
 </h1>
-<br>
+
 
 <h1 align="center">
 <img src="catalogo3.jpeg" alt="coronario" width="300" height=550></img>
