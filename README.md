@@ -1,6 +1,5 @@
-#Catalogo de Estabelecimentos Delivery
-
-##Plataforma web para cadastro de estabelecimentos deliveries em sua cidade.
+# Catalogo de Estabelecimentos Delivery
+## Plataforma web para cadastro de estabelecimentos deliveries em sua cidade.
 
 
 <h1 align="center">
