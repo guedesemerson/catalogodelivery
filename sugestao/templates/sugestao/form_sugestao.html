@@ -51,7 +51,9 @@
 {%block main%}
 <div class="container" >
   <div class="jumbotron" >
-    <h2><span class="badge badge-info ">Sugestão de Estabelecimento</span></h2>
+    <div>
+      <h4><span class="badge badge-info ">Sugestão de Estabelecimento</span></h4>
+    </div>
     <form action= "{% url 'adicionar_sugestao' %}" method ="POST">
             {%csrf_token%}
             {{form|bootstrap}}
