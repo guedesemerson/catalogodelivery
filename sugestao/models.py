@@ -1,4 +1,5 @@
 from django.db import models
+import datetime
 
 class Sugestao(models.Model):
     estabelecimento = models.CharField(max_length=100)
@@ -7,6 +8,6 @@ class Sugestao(models.Model):
     bairro = models.CharField(max_length=100,null=True, blank=True)
     observacao = models.TextField(null=True, blank=True)
     site = models.CharField(max_length=50,null=True, blank=True)
-    data_insercao = models.DateField( auto_now_add=True,)
+    data_insercao = models.DateField(default=datetime.date.today())
     def __str__(self):
         return self.estabelecimento
