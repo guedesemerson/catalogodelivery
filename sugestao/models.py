@@ -1,6 +1,7 @@
 from django.db import models
 import datetime
 
+
 class Sugestao(models.Model):
     estabelecimento = models.CharField(max_length=100)
     telefone = models.CharField(max_length=11)
