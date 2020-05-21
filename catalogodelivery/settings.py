@@ -27,7 +27,7 @@ SECRET_KEY = 'dkdo0ea_%0k$*2oo12@7c%+e%0i(p^&^r&^+^ec!_r(l%rg1#z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','18.230.11.207','catalogodeliveryro.com.br']
+ALLOWED_HOSTS = ['127.0.0.1','162.159.24.170']
 
 
 # Application definition
